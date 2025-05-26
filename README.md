@@ -10,7 +10,7 @@
   <br/>
 </div>
 
-PHI is the implementation for Action Quality Assessment (AQA) based on the paper "PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction".
+PHI is the implementation for Action Quality Assessment (AQA) based on the paper "PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction". This repository serves as a reproduction of our paper's implementation. Please note that due to the passage of time and changes in hardware, the original code was not preserved.
 
 ## Framework
 
