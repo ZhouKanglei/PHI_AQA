@@ -5,7 +5,7 @@
     </h1>
   </div>
   <div>
-  Accepted by TIP 2025 | <a href="">arXiv</a>
+  Accepted by TIP 2025 | <a href="https://arxiv.org/abs/2505.19972">arXiv</a>
   </div>
   <br/>
 </div>
@@ -107,15 +107,15 @@ CUDA_VISIBLE_DEVICES=${gpu} python main.py \
     --test --ckpt {your model saving path}/best.pkl
 ```
 
-## Reproduction Example 
+## Reproduction Example
 
-We provide a detailed example to reproduce our results on the Ball (RG) dataset. The corresponding bash script, `train_vst_rg_ball.sh`, utilizes a two-stage training approach. 
+We provide a detailed example to reproduce our results on the Ball (RG) dataset. The corresponding bash script, `train_vst_rg_ball.sh`, utilizes a two-stage training approach.
 
-🚀 From the training log `outputs/phi/Ball/second_phase/log.txt`, we observe that the best Spearman's Rank Correlation Coefficient (SRCC) achieved exceeds the result reported in our paper. 
+🚀 From the training log `outputs/phi/Ball/second_phase/log.txt`, we observe that the best Spearman's Rank Correlation Coefficient (SRCC) achieved exceeds the result reported in our paper.
 
-📈 Additionally, you can select a result that balances SRCC and the precision metric (RL2) based on the specific requirements of your application. For example, Epoch 23 closely aligns with or even surpasses the results presented in our paper. 
+📈 Additionally, you can select a result that balances SRCC and the precision metric (RL2) based on the specific requirements of your application. For example, Epoch 23 closely aligns with or even surpasses the results presented in our paper.
 
-🌟 Be patient and persistent in tuning the code to achieve new state-of-the-art results. 
+🌟 Be patient and persistent in tuning the code to achieve new state-of-the-art results.
 
 ## Acknowledgements
 
